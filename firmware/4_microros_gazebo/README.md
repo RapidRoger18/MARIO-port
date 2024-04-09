@@ -45,7 +45,7 @@ sudo apt install net-tools
 ```bash
 cd ros2_ws
 source install/setup.bash
-ros2 run simulation_gazebo basic_gazebo.launch.py
+ros2 launch simulation_gazebo basic_gazebo.launch.py
 ```
 This will open a gazebo simulation window.
 Now we run kinematics scripts on the bot. Open a new terminal and run following commands.
