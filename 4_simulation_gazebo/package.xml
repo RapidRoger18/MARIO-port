@@ -7,16 +7,13 @@
   <maintainer email="awshaikh_b21@me.vjti.ac.in">proto</maintainer>
   <license>TODO: License declaration</license>
 
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>robot_state_publisher</buildtool_depend>
+  <buildtool_depend>ros2_control</buildtool_depend>
   <buildtool_depend>rclcpp</buildtool_depend>
   <buildtool_depend>std_msgs</buildtool_depend>
-  <buildtool_depend>ament_cmake</buildtool_depend>
-  <buildtool_depend>sensor_msgs</buildtool_depend>
-  <buildtool_depend>ros2_control</buildtool_depend>
-   <buildtool_depend>gazebo_msgs </buildtool_depend>
   <buildtool_depend>geometry_msgs</buildtool_depend>
-  <buildtool_depend>gazebo_ros_pkgs</buildtool_depend>
-  <buildtool_depend>gazebo_ros_pkgs</buildtool_depend>
-  <buildtool_depend>robot_state_publisher</buildtool_depend>
+  <buildtool_depend>sensor_msgs</buildtool_depend>
   <buildtool_depend>joint_state_broadcaster</buildtool_depend>
   <buildtool_depend>joint_trajectory_controller</buildtool_depend>
   <buildtool_depend>forward_command_controller</buildtool_depend>
